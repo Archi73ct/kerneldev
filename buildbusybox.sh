@@ -13,6 +13,7 @@ make -C busybox-$BUSYBOX_VERSION -j16
 make -C busybox-$BUSYBOX_VERSION install
 
 echo "[+] Building filesystem..."
+mkdir fs
 pushd fs
 mkdir -p bin sbin etc proc sys usr/bin usr/sbin root home/ctf
 popd
