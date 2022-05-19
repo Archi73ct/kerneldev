@@ -15,6 +15,6 @@ make -C busybox-$BUSYBOX_VERSION install
 echo "[+] Building filesystem..."
 mkdir fs
 pushd fs
-mkdir -p bin sbin etc proc sys usr/bin usr/sbin root home/ctf
+mkdir -p bin sbin etc proc sys usr/bin usr/sbin root
 popd
 cp -a busybox-$BUSYBOX_VERSION/_install/* fs
