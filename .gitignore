@@ -53,3 +53,5 @@ dkms.conf
 
 # Kernel source trees
 linux-*
+busybox-*
+fs
